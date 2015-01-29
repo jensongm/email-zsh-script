@@ -1,4 +1,6 @@
-# email-zsh-script
+# zsh-scripts
+
+### email-zsh-script
 Simple zsh script for sending emails.
 
 -   Clone repository
