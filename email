@@ -1,0 +1,12 @@
+#!/usr/bin/env zsh
+echo -e "From: "
+read FROM_EMAIL
+echo -e "To: "
+read TO_EMAIL
+echo -e "Subject: "
+read SUBJECT
+echo -e "Message: " 
+read MESSAGE
+echo "Sending email ..."
+echo "$MESSAGE" | mailx -s "$SUBJECT" -r "$FROM_EMAIL" $TO_EMAIL
+echo "Email sent!"
